@@ -28,6 +28,7 @@ p{
 img{
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 .about{
     background: #000;
@@ -114,9 +115,11 @@ img{
     padding: 10px;
     text-align: center;
     transition: 0.3s;
+    border-radius: 8px;
 }
 .child:hover{
     scale: 1.1;
+    background: var(--Green);
 }
 .child .content{
     padding: 0 20px;
